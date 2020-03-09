@@ -1,0 +1,28 @@
+Steps to connect github to your Visual Studio.
+Step-1
+You should have these softwares:-
+
+Visual Studio code
+Github Account
+Git software
+
+Step-2
+Click on Source control and then click on + sign in Visual Studio to initialize repository
+Commit
+Config Git (If ask)
+git config --global user.name "username"
+git config --global user.email "email"
+Add Remote Path. For this
+Go to Github and login there.
+click on add repository.
+Copy the Https link provided by Github by clicking on Clone or download button.
+Go to VS code terminal and write git remote add origin copied linkname
+Push
+Write the code git push -u origin master to push the file in your Github repo.
+If error while pushing write this in your vs code terminal.
+git reset --mixed origin/master
+git add .
+git commit -m "This is a new commit for what I originally planned to be amended"
+git push origin master
+Find Github Account Credentials
+Push Again (If required)
