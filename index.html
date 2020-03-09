@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Github VS Code connection</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        
+        <h1> Steps to connect github to your Visual Studio.</h1>
+        <hr>
+        <span class="steps">
+            <ol>
+                <b><li><h3>Step-1</h3></li></b>
+                <p>You should have these softwares:-</p> 
+                <ol>
+                    <li> <a href="https://code.visualstudio.com/">Visual Studio code</a> </li>
+                    <li><a href="https://github.com/">Github Account</a></li>
+                    <li><a href="https://git-scm.com/">Git software</a></li>
+                </ol>
+                <br>
+                <b><li><h3>Step-2</h3></li></b>
+                <ol>
+                    <li>Click on Source control  and then click on <b>+</b> sign in Visual Studio  to initialize repository</li>
+                    <li>Commit</li>
+                    <li>
+                        
+                        <span>
+                            Config Git (If ask)
+                            <ul>
+                                <li>git config --global user.name "username" </li>
+                                <li>git config --global user.email "email" </li>
+                            </ul>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            Add Remote Path. For this
+                            <ul>
+                                <li>Go to Github and login there.</li>
+                                <li>click on add repository. </li>
+                                <li> Copy the Https link provided by Github by clicking on Clone or download button.</li>
+                                <li>Go to VS code terminal and write <b>git remote add origin copied linkname</b></li>
+                            </ul>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            Push 
+                            <ul>
+                               <li>Write the code <b>git push -u origin master</b> to push the file in your Github repo.</li>
+                            </ul>
+                        </span>
+                    </li>
+                    <li>Find Github Account Credentials</li>
+                    <li>Push Again (If required)</li>
+                </ol>
+            </ol>
+        </span>
+        <script src="" async defer></script>
+    </body>
+</html>
